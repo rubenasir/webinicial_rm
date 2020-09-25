@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Lenguajes de marcas y sistemas de gestión de información</title>
+
+        <!-- Bootstrap 4 CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Custom styles -->
+        <style>
+            #hello {
+                padding-top: 120px;
+                padding-bottom: 100px;
+            }
+            #html_definition {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #features {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #featureblock1 {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #featureblock2 {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #sgi_definition {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #erp_systems {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #credits {
+                padding-top: 5%;
+                margin-bottom: 300px;
+            }
+            #sidebar-wrapper {
+                min-height: 100vh;
+                -webkit-transition: margin .25s ease-out;
+                -moz-transition: margin .25s ease-out;
+                -o-transition: margin .25s ease-out;
+                transition: margin .25s ease-out;
+                position: fixed;
+            }
+
+            #sidebar-wrapper .sidebar-heading {
+                padding: 0.875rem 1.25rem;
+                font-size: 1.2rem;
+                font-weight: 100;
+            }
+
+            #sidebar-wrapper .list-group {
+                width: 15rem;
+            }
+            #go_top {
+                position: fixed;
+                bottom: 0%;
+                padding: 0.875rem 1.25rem;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="d-flex" id="wrapper">
+
+            <!-- Sidebar -->
+            <div class="bg-light border-right" id="sidebar-wrapper">
+              <div class="sidebar-heading">Lenguajes de marcas</div>
+              <div class="list-group list-group-flush mb-4">
+                <a href="#html_definition" class="list-group-item list-group-item-action bg-light">¿Qué son?</a>
+                <a href="#features" class="list-group-item list-group-item-action bg-light">Características</a>
+                <a href="#featureblock1" class="list-group-item list-group-item-action bg-light">HTML, XHTML y CSS</a>
+                <a href="#featureblock2" class="list-group-item list-group-item-action bg-light">XML, Markdown, XPATH y XQUERY</a>
+              </div>
+              <div class="sidebar-heading">Sist. de gestión <br />de la información</div>
+              <div class="list-group list-group-flush">
+                <a href="#sgi_definition" class="list-group-item list-group-item-action bg-light">Definición</a>
+                <a href="#erp_systems" class="list-group-item list-group-item-action bg-light">Sistemas ERP</a>
+              </div>
+              <div id="go_top" class="text-center"><a href="#hello">Volver arriba</a></div>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <div class="container" id="hello">
+                <h2>Bienvenido al manual del HTML y de los sistemas de gestión de la información</h2>
+                <p class="lead">Toda la información está organizada en secciones y es accesible a través de la barra de navegación lateral.</p>
+                <p><small>Las fuentes utilizadas para elaborar esta página se encuentran detalladas <a href="#credits">aquí</a>.</small></p>
+                <hr>
+                <img src="https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png" />
+            </div>
+
+        </div>
+
+        <div class="container" id="html_definition">
+            <h2>¿Qué son los lenguajes de marcas?</h2>
+            <p class="lead">Un <b>lenguaje de marcas</b> es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.</p>
+            <br>
+            <h4>Tipos de marcados</h4>
+            <table class="table table-striped table-bordered table-condensed" cellspacing="0" cellpadding="0" border="1" align="center">
+                <thead>
+                    <tr>
+                        <th scope="col" style="width: 192px;">
+                            <p>
+                                Tipo</p>
+                        </th>
+                        <th scope="col" style="width: 192px;">
+                            <p>
+                                Descripción</p>
+                        </th>
+                        <th scope="col" style="width: 192px;">
+                            <p>
+                                Ejemplo</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width:192px;">
+                            <p>
+                                <span style="color:#008000;"><strong>Marcado de presentación</strong></span></p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                Indica el formato del texto, es decir cómo&nbsp; ha de presentarse el documento. La etiquetas de marcado suelen estar ocultas al usuario</p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                Microsoft Word</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:192px;">
+                            <p>
+                                <span style="color:#008000;"><strong>Marcado de&nbsp; Procedimiento</strong></span></p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                También está enfocado hacia la presentación del texto, sin embargo, las marcas que formatean el texto son visibles para el usuario y permiten procesamiento (realizar un conjunto de acciones) según el tipo de etiqueta.&nbsp;</p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                LaTeX, HTML</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:192px;">
+                            <p>
+                                <span style="color:#008000;"><strong>Marcado descriptivo o semántico</strong></span></p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                Utiliza las marcas o etiquetas para describir los fragmentos de texto</p>
+                        </td>
+                        <td style="width:192px;">
+                            <p>
+                                XML</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container" id="features">
+            <h2>Características de los lenguajes de marcas</h2>
+            <p class="lead">Los lenguajes de marcas tienen una serie de características que los hacen únicos.</p>
+            <br>
+            <p>Entre ellas, se encuentran las siguientes:</p>
+            <ul>
+                <li>Hacen uso del <b>texto plano</b>, por lo que pueden ser modificados con cualquier editor de textos, independientemente de la plataforma sobre la que se esté trabajando.</li>
+                <li>Las instrucciones de marcado se entremezclan con el propio contenido.</li>
+                <li>Son muy <b>flexibles</b>, y su uso se extiende a muchas áreas como los gráficos vectoriales, los servicios web o las interfaces de usuario.</li>
+            </ul>
+            <p>Por esto y muchas otras cosas, es sumamente sencillo comprender y aprender el código de una página hecha con un lenguaje de marcas.</p>
+            <center><img src="https://i.imgur.com/pYNdIjq.png" width="700px" alt="Documento HTML"/></center>
+        </div>
+
+        <div class="container" id="featureblock1">
+            <h2>Características de HTML, XHTML y CSS</h2>
+            <p class="lead">Todos estos lenguajes de marcas tienen muchas cosas en común, pero cada uno de ellos tiene un propósito diferente.</p>
+            <br>
+
+            <div class="row d-flex justify-content-center">
+                <div class="card text-white bg-secondary mb-3 mx-1" style="max-width: 18rem;">
+                    <div class="card-header">HTML</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Hyper Text Markup Language</h5>
+                      <p class="card-text">El lenguaje de la web. <br />¡Hasta esta página lo usa!</p> 
+                      <hr>
+                      <ul>
+                        <li>Multiplataforma</li>
+                        <li>Utiliza etiquetas o marcas</li>
+                        <li>Es un lenguaje estático</li>
+                        <li>Constan de una estructura definida: etiquetas al comienzo, en el cuerpo y al final</li>
+                        <li>No distingue entre mayúsculas y minúsculas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-secondary mb-3 mx-1" style="max-width: 18rem;">
+                    <div class="card-header">XHTML</div>
+                    <div class="card-body">
+                      <h5 class="card-title">eXtensible HyperText Markup Language</h5>
+                      <p class="card-text">Dos lenguajes juntos para crear una versión de HTML más <i>estricta</i> y más parecida a XML</p>
+                      <hr>
+                      <ul>
+                        <li>Se pueden incorporar elementos de XML</li>
+                        <li>Valida la correcta sintaxis del código</li>
+                        <li>Es un lenguaje semántico</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-secondary mb-3 mx-1" style="max-width: 18rem;">
+                    <div class="card-header">CSS</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cascading Style Sheets</h5>
+                      <p class="card-text">El CSS se encarga de dar forma y color al HTML</p>
+                      <hr>
+                      <ul>
+                        <li>Separa la estructura de un documento de su presentación</li>
+                        <li>Aumenta considerablemente la accesibilidad</li>
+                        <li>Se puede adaptar al dispositivo en el que se visualiza la página</li>
+                        <li>Hace que el documento HTML sea más comprensible y ligero</li>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container" id="featureblock2">
+            <h2>Características de XML, Markdown, XPATH y XQUERY</h2>
+            <br>
+
+            <div class="d-flex justify-content-center">
+                <div class="card bg-light mb-3 mx-1" style="max-width: 16rem;">
+                    <div class="card-header">XML</div>
+                    <div class="card-body">
+                      <h5 class="card-title">eXtensible Markup Language</h5>
+                      <p class="card-text">Un lenguaje que persigue enfatizar la simplicidad y usabilidad a través de Internet</p> 
+                      <hr>
+                      <ul>
+                        <li>Conjunto de reglas para representar información fácilmente procesable por un ordenador</li>
+                        <li>Permite la creación de etiquetas propias y permite asignar atributos a las etiquetas</li>
+                        <li>La estructura y el diseño están completamente separados.</li>
+                        <li>Cada documento incluye metadatos sobre sí mismo</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 mx-1" style="max-width: 16rem;">
+                    <div class="card-header">Markdown</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Markdown</h5>
+                      <p class="card-text">Lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial</p>
+                      <hr>
+                      <ul>
+                        <li>Facilita la comprensión del texto escrito</li>
+                        <li>Genera código HTML válido</li>
+                        <li>Es una forma ágil y rápida de dar formato a los textos</li>
+                        <li>Es extremadamente minimalista, se puede escribir con cualquier editor de textos</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 mx-1" style="max-width: 16rem;">
+                    <div class="card-header">XPATH</div>
+                    <div class="card-body">
+                      <h5 class="card-title">XPath</h5>
+                      <p class="card-text">XPath es un lenguaje que permite seleccionar nodos de un documento XML y calcular valores a partir de su contenido</p>
+                      <hr>
+                      <p>XPath es un lenguaje XML que permite el acceso a información concreta de un documento XML, haciendo un recorrido a través de los elementos que lo compone. Es decir, evaluar una expresión XPath consiste en buscar si hay elementos que satisfagan el recorrido indicado.</p>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 mx-1" style="max-width: 16rem;">
+                    <div class="card-header">XQUERY</div>
+                    <div class="card-body">
+                      <h5 class="card-title">XQuery</h5>
+                      <p class="card-text">XQuery es un lenguaje de consulta diseñado para colecciones de datos XML</p>
+                      <hr>
+                        <p>XQuery proporciona los medios para extraer y manipular información de documentos XML, o de cualquier fuente de datos que pueda ser representada mediante XML como, por ejemplo, bases de datos relacionales o documentos ofimáticos.</p>
+                        <p>También incluye la posibilidad de construir nuevos documentos XML a partir de los resultados de la consulta.</p>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+
+
+
+        <div class="container" id="sgi_definition">
+            <h2>Qué es un Sistema de Gestión de Información</h2>
+            <hr>
+            <p>Un sistema de gestión de información (MIS, por sus siglas en inglés) es un conjunto de sistemas y procedimientos que recopilan información de una variedad de fuentes, la compilan y la presentan en un formato legible.</p>
+            <p>Estos deben de contar con una serie de características, que se enumeran a continuación:</p>
+            <ul>
+                <li><strong>Administración de bases de datos:</strong> La característica principal de un sistema de gestión de información es su capacidad para almacenar datos y facilitar información para ser recuperada por los usuarios del sistema. El tipo de base de datos utilizada determina cómo el sistema de gestión de información responde a las peticiones o consultas de información. </li>
+                <li><strong>Informes:</strong> El sistema debe ser capaz de producir informes que ayuden en el proceso de toma de decisiones. La mayoría de SGI proporciona varias plantillas de informes mientras que otras ofrecen la posibilidad de crear informes específicos y guardarlos como una plantilla para que otros los utilicen.</li>
+                <li><strong>Flexibilidad e integración:</strong> Un sistema de gestión de información flexible es aquel permite a una empresa cumplir más fácilmente con las regulaciones externas y requisitos internos, o lo que es lo mismo, integrarlo con los sistemas ya existentes.</li>
+                <li><strong>Escalabilidad:</strong> Debido a que no todas las empresas requieren la oferta completa de algunos sistemas de gestión de información, la escalabilidad se elemento clave de los mismos. Las empresas más pequeñas pueden requerir una versión reducida un SGI al momento, pero dentro de unos años necesitan características adicionales y funciones mayores de administración de bases de datos.</li>
+            </ul>
+            <center><img src="https://rubianogina.files.wordpress.com/2012/12/mis1.jpg" alt="Sistema de Gestión de Información" width="500px" /></center>
+        </div>
+
+        <div class="container" id="erp_systems">
+            <h2>Qué es un Sistema de Gestión Empresarial</h2>
+            <hr>
+            <p>Un sistema de gestión empresarial (Enterprise Resource Planning en inglés) es aquel que se hace cargo de distintas operaciones internas de una empresa, desde producción a distribución o incluso recursos humanos.</p>
+            <p>Las ventajas de integrar un ERP a una empresa son varios:</p>
+            <ul>
+                <li>Automatización de procesos de la empresa. </li>
+                <li>Disponibilidad de la información de la empresa en una misma plataforma.</li>
+                <li>Integración de las distintas bases de datos de una compañía en un solo programa.</li>
+                <li>Ahorro de tiempo y costes.</li>
+            </ul>
+            <p>Asimismo, las características que distinguen a un ERP de cualquier otro software empresarial son que deben ser modulares, configurables y especializados: </p>
+            <ul>
+                <li><strong>Modulares.</strong> Los ERP entienden que una empresa es un conjunto de departamentos que se encuentran interrelacionados por la información que comparten y que se genera a partir de sus procesos. Una ventaja de los ERP, tanto económica como técnica, es que la funcionalidad se encuentra dividida en módulos, los cuales pueden instalarse de acuerdo con los requerimientos del cliente. Ejemplo: ventas, materiales, finanzas, control de almacén, recursos humanos, etc.</li>
+                <li><strong>Configurables.</strong> Los ERP pueden ser configurados mediante desarrollos en el código del software. Por ejemplo, para controlar inventarios, es posible que una empresa necesite manejar la partición de lotes pero otra empresa no. Los ERP más avanzados suelen incorporar herramientas de programación de cuarta generación para el desarrollo rápido de nuevos procesos.</li>
+                <li><strong>Especializados.</strong>Un ERP especializado, brinda soluciones existentes en áreas de gran complejidad y bajo una estructura de constante evolución. Estas áreas suelen ser, el verdadero problema de las empresas, además de contener todas las áreas transversales. Trabajar bajo ERP especializados es el paso lógico de las empresas que requieren soluciones reales a sus verdaderas necesidades.Un ERP genérico solo ofrece un bajo porcentaje de efectividad basado en respuestas generalistas, que requieren ampliaciones funcionales.</li>
+            </ul>
+            <center><img src="https://i.ytimg.com/vi/JMLLWV2kW4w/maxresdefault.jpg" alt="Sistema de Gestión de Información" width="420px" /></center>
+        </div>
+
+
+        <div class="container" id="credits">
+            <h2>Webgrafía</h2>
+            <p class="lead">Dividido por bloques temáticos, se detallan a continuación todos los enlaces que se han utilizado en la elaboración de la página.</p>
+            <hr>
+            <h3>Lenguajes de marcas</h3>
+            <h4>¿Qué son?</h4>
+            <ul>
+                <li><a href="https://www.docencia.taboadaleon.es/1-1-lenguajes-de-marcas-tipos-y-clasificacion-de-los-mas-relevantes.html">https://www.docencia.taboadaleon.es/1-1-lenguajes-de-marcas-tipos-y-clasificacion-de-los-mas-relevantes.html</a></li>
+            </ul>
+            <h4>Características</h4>
+            <ul>
+                <li><a href="https://historiademihtml.blogspot.com/p/caracteristicas.html">https://historiademihtml.blogspot.com/p/caracteristicas.html</a></li>
+            </ul>
+            <h4>HTML, XHTML y CSS</h4>
+            <ul>
+                <li><a href="https://www.w3schools.com/Html/html_xhtml.asp">https://www.w3schools.com/Html/html_xhtml.asp</a></li>
+                <li><a href="https://es.ryte.com/wiki/XHTML#Caracter.C3.ADsticas">https://es.ryte.com/wiki/XHTML#Caracter.C3.ADsticas</a></li>
+                <li><a href="https://www.ecured.cu/CSS">https://www.ecured.cu/CSS</a></li>
+            </ul>
+            <h4>XML, Markdown, XPATH y XQUERY</h4>
+            <ul>
+                <li><a href="https://www.ecured.cu/XML">https://www.ecured.cu/XML</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Markdown">https://es.wikipedia.org/wiki/Markdown</a></li>
+                <li><a href="https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo">https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/XPath">https://es.wikipedia.org/wiki/XPath</a></li>
+                <li><a href="https://www.mclibre.org/consultar/xml/lecciones/xml-xpath.html">https://www.mclibre.org/consultar/xml/lecciones/xml-xpath.html</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/XQuery">https://es.wikipedia.org/wiki/XQuery</a></li>
+            </ul>
+            <br />
+            <h3>Sistemas de gestión de la información</h3>
+            <h4>Definición</h4>
+            <ul>
+                <li><a href="https://www.ecured.cu/Sistema_de_Gesti%C3%B3n_de_Informaci%C3%B3n">https://www.ecured.cu/Sistema_de_Gesti%C3%B3n_de_Informaci%C3%B3n</a></li>
+            </ul>
+            <h4>Sistemas de gestión empresarial</h4>
+            <ul>
+                <li><a href="https://www.ticportal.es/temas/enterprise-resource-planning/que-es-sistema-erp">https://www.ticportal.es/temas/enterprise-resource-planning/que-es-sistema-erp</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Sistema_de_planificaci%C3%B3n_de_recursos_empresariales">https://es.wikipedia.org/wiki/Sistema_de_planificaci%C3%B3n_de_recursos_empresariales</a></li>
+            </ul>
+        </div>
+
+        <!-- Bootstrap 4 JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
